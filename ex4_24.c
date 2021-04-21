@@ -30,6 +30,7 @@ int main (int argc, const char * argv[]) {
         pthread_join(runners[i],NULL);
      
     /* estimating Pi */
+    printf("Number of total points of circle = %d\n", total_points);
     pi_value = 4.0 * value_circle / total_points;
     printf("The approximate value of Pi = %f\n",pi_value);
      
